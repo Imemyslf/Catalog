@@ -1,0 +1,22 @@
+.wishlist-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 32px 0 0;
+}
+
+.wishlist-btn {
+  font-weight: 600;
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: #e63946;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.wishlist-btn .wishlist-heart {
+  font-size: 22px;
+  margin-left: 6px;
+}
