@@ -2,6 +2,18 @@
   padding: 20px;
 }
 
+.btnStyle {
+  margin: "10px 0 0 0";
+  padding: "8px 20px";
+  background: "#1976d2";
+  color: "#fff";
+  border: "none";
+  border-radius: 4;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .filter-bar {
   display: flex;
   flex-direction: column;
@@ -99,7 +111,7 @@
 .product-card {
   background: #ececec; /* Slightly darker grey */
   border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(30, 30, 60, 0.10);
+  box-shadow: 0 4px 16px rgba(30, 30, 60, 0.1);
   padding: 32px 16px;
   width: 100%;
   max-width: 320px;
@@ -123,7 +135,7 @@
   height: 180px;
   object-fit: contain; /* Keeps image aspect ratio, fits inside the square */
   background: #f4f4f4; /* Optional: light background for empty space */
-  border-radius: 12px;  /* Optional: rounded corners */
+  border-radius: 12px; /* Optional: rounded corners */
   display: block;
   margin: 0 auto 16px auto;
 }
@@ -135,7 +147,7 @@
   margin: 40px auto;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   padding: 32px;
 }
 

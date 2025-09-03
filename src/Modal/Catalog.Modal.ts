@@ -5,6 +5,15 @@ export interface Product {
   desc: string;
   img: string;
 }
+export interface CatalogPageProps {
+  search: string;
+  category: string;
+  setSearch: (v: string) => void;
+  setCategory: (v: string) => void;
+  filteredProducts: Product[];
+  wishlist: number[];
+  toggleWishlist: (id: number) => void;
+}
 
 export interface CatalogProps {
   products: Product[];
